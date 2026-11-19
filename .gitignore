@@ -1,0 +1,9 @@
+build/
+.gradle/
+run/
+out/
+.idea/
+*.iml
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+.claude/

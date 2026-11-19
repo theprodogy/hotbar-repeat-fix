@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "hotbarrepeatfix",
+  "version": "${version}",
+  "name": "Hotbar Repeat Fix",
+  "description": "Fixes hotbar key-repeat backlog so slot switches happen next tick with no stale switching back.",
+  "authors": ["revsies"],
+  "license": "MIT",
+  "environment": "client",
+  "mixins": ["hotbarrepeatfix.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}
