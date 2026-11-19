@@ -1,6 +1,25 @@
 # Hotbar Repeat Fix
 
+[![Release](https://img.shields.io/github/v/release/theprodogy/hotbar-repeat-fix)](https://github.com/theprodogy/hotbar-repeat-fix/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/theprodogy/hotbar-repeat-fix/total)](https://github.com/theprodogy/hotbar-repeat-fix/releases)
+[![Minecraft](https://img.shields.io/badge/minecraft-1.21.11%20%7C%2026.1%20to%2026.3-62b47a)](#supported-versions)
+[![Fabric](https://img.shields.io/badge/loader-fabric-dbd0b4)](https://fabricmc.net/)
+[![License](https://img.shields.io/github/license/theprodogy/hotbar-repeat-fix)](LICENSE)
+
 A Fabric client mod that makes hotbar switches land on the next tick, every time, with no backlog and no flicking back to an old slot.
+
+## Table of contents
+
+- [Description](#description)
+- [Features](#features)
+- [Supported versions](#supported-versions)
+- [Install](#install)
+- [Usage](#usage)
+- [How it works](#how-it-works)
+- [Build](#build)
+- [Contributing](#contributing)
+- [Credits](#credits)
+- [License](#license)
 
 ## Description
 
@@ -30,7 +49,8 @@ Everything else stays vanilla. The scroll wheel, attacking, using items and the 
 | `hotbar-repeat-fix-1.0.0+mc26.2.jar` | 26.2 | 25 |
 | `hotbar-repeat-fix-1.0.0+mc26.3.jar` | 26.3 | 25 |
 
-Minecraft 26.x itself requires Java 25, so those jars do too.
+> [!IMPORTANT]
+> Minecraft 26.x itself requires Java 25, so those jars do too. Pick the jar that matches your Minecraft version, because a jar for another version won't load.
 
 ## Install
 
@@ -46,7 +66,10 @@ There is nothing to set up. To see the fix:
 2. Hold `1`, then click a mouse button bound to a hotbar slot. You stay on that slot.
 3. Spam `1`, `2`, `3` quickly. Every press lands and nothing flicks back.
 
-One small difference from vanilla: if you press two hotbar keys within the same tick (50 ms), vanilla ends on the higher slot number and this mod ends on the key you pressed last.
+> [!NOTE]
+> One small difference from vanilla: if you press two hotbar keys within the same tick (50 ms), vanilla ends on the higher slot number and this mod ends on the key you pressed last.
+
+Something not working? See [SUPPORT.md](SUPPORT.md). Changes per release are listed in the [CHANGELOG](CHANGELOG.md).
 
 ## How it works
 
@@ -76,7 +99,9 @@ The jars land in `versions/<mc>/build/libs` and are copied to `build/jars`. The 
 
 ## Contributing
 
-Issues and pull requests are welcome. Keep changes small and gameplay vanilla. The build has to finish with zero warnings, the code has no comments, and each feature gets its own folder with one class per job.
+Issues and pull requests are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) first: changes stay small and gameplay stays vanilla, the build has to finish with zero warnings, the code has no comments, and each feature gets its own folder with one class per job.
+
+This project follows the [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md). Report security problems privately as described in [SECURITY.md](SECURITY.md).
 
 ## Credits
 
