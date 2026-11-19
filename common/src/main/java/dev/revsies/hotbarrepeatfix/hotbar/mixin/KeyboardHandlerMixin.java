@@ -21,7 +21,7 @@ public abstract class KeyboardHandlerMixin {
         Operation<Void> original,
         @Local(argsOnly = true) int action
     ) {
-        if (action != 2) {
+        if (action != InputConstants.REPEAT) {
             original.call(key);
             return;
         }

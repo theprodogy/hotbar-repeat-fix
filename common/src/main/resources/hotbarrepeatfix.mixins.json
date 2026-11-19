@@ -1,7 +1,7 @@
 {
   "required": true,
   "package": "dev.revsies.hotbarrepeatfix.hotbar.mixin",
-  "compatibilityLevel": "JAVA_21",
+  "compatibilityLevel": "JAVA_${java_version}",
   "client": [
     "KeyboardHandlerMixin",
     "KeyMappingMixin",
