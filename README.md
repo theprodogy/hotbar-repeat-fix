@@ -82,6 +82,8 @@ Issues and pull requests are welcome. Keep changes small and gameplay vanilla. T
 
 Made by revsies for the Minecraft PvP fix community.
 
+Inspired by [Disproven](https://www.youtube.com/@disprovenrare)'s hotbar repeat fix mod, which he covers in [How to do a Perfect Shield Disable Every Single Time](https://www.youtube.com/watch?v=WJwwQVo03jg). His mod is private, so this one was built independently from the video's description of the behaviour as a free, open-source alternative. No code was taken from his mod.
+
 ## License
 
 [MIT](LICENSE)
